@@ -1,0 +1,33 @@
+{
+  "name": "AHS-api-node",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "dist",
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true,
+      "jest": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1,
+      "import/prefer-default-export": "off",
+      "import/no-dynamic-require": "off"
+    }
+  },
+  "dependencies": {
+    "lodash": "4.17.5"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^5.0.0",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-plugin-jest": "21.15.0"
+  }
+}
